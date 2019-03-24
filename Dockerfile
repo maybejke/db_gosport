@@ -9,6 +9,8 @@ RUN apk update \
     && \
     apk add \
       build-base \
+      zlib-dev \
+      jpeg-dev \
       libpq \
       postgresql-dev \
     && \
